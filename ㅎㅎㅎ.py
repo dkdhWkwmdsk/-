@@ -22,6 +22,6 @@ tab1, tab2 = st.tabs(["Cat","Dog"])
 with tab1:
   st.header("A cat")
   st.image("https://startic.streamlit.fo/examples/cat.jpg",width=200)
-  with tab2:
+with tab2:
   st.header("A dog")
   st.image("https://startic.streamlit.fo/examples/dog.jpg",width=200)
